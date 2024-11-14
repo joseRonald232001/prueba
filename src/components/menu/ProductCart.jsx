@@ -1,5 +1,5 @@
 import React from "react";
-import star from "../../assets/icons/star.svg";
+import starIcon from "../../assets/icons/starIcon.svg";
 import StarYellow from "../../assets/icons/StarYellow.svg";
 import "./productCart.css";
 
@@ -37,7 +37,7 @@ function ProductCart({ product }) {
         <div className="productCart_buttons">
           <button>Ver detalles</button>
           <button>
-            <img src={star} alt="start icon" />
+            <img src={starIcon} alt="start icon" />
             Calificar
           </button>
         </div>
