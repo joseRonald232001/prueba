@@ -1,5 +1,5 @@
 import React from "react";
-import star from "../../assets/icons/star.svg";
+import star from "../../assets/icons/Star.svg";
 import StarYellow from "../../assets/icons/StarYellow.svg";
 import "./productCart.css";
 
