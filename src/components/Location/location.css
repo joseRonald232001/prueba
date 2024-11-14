@@ -1,0 +1,64 @@
+:root {
+  --color-pink: #B92863;
+  --color-orange: #F6911F;
+  --color-mustard: #F6C226;
+  --color-brown: #6C4130;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-gray: #000000;
+  --color-dark-gray: #202020;
+
+  --font-Sherlyn: "Sherlyn', sans-serif";
+  --font-Montserrat: "Montserrat Alternates", sans-serif;
+
+  --font-weight-200: 200;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+
+  --font-size-xs: clamp(0.875rem, 1vw + 0.5rem, 1rem);
+  /* 14px - 16px */
+  --font-size-sm: clamp(1rem, 1.2vw + 0.5rem, 1.25rem);
+  /* 16px - 20px */
+  --font-size-md: clamp(1.25rem, 1.5vw + 0.5rem, 1.5rem);
+  /* 20px - 24px */
+  --font-size-lg: clamp(1.5rem, 2vw + 0.5rem, 2rem);
+  /* 24px - 32px */
+  --font-size-xl: clamp(2rem, 2.5vw + 0.5rem, 2.5rem);
+  /* 32px - 40px */
+  --font-size-xxl: clamp(2.5rem, 3vw + 0.5rem, 3.5rem);
+  /* 40px - 56px */
+}
+
+.loction_section {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.location_content {
+  width: 100%;
+  max-width: 1300px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location_title {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.map-iframe {
+  width: 95%;
+  max-width: 1200px;
+  height: 450px;
+  border: 1px solid var(--color-orange);
+}
+
+.location_line {
+  width: 200px;
+  height: 3px;
+  margin: 0 auto;
+  background: var(--color-pink);
+}
