@@ -11,7 +11,7 @@ import Seo from "../seo/Seo";
 function Home() {
   return (
     <>
-    <Seo title="Candy | Cake"/>
+      <Seo title="Candy | Cake" url="https://tusitio.com/menu" />
       <main>
         <Hero />
         <About />
