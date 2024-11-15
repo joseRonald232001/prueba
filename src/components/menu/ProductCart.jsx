@@ -14,8 +14,6 @@ function ProductCart({ product }) {
         return "var(--color-orange)";
       case "breakfast":
         return "var( --color-brown)";
-      case "breakfast":
-        return "var( --color-mustard)";
       default:
         return "var(--color-orange)";
     }
