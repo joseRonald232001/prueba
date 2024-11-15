@@ -6,12 +6,10 @@ import TopRatedProducts from "../components/TopRatedProducts/TopRatedProducts";
 import Contact from "../components/Contact/Contact";
 import Location from "../components/Location/Location";
 import Footer from "../components/Footer/Footer";
-import Seo from "../seo/Seo";
 
 function Home() {
   return (
     <>
-      <Seo title="Candy | Cake" url="https://tusitio.com/menu" />
       <main>
         <Hero />
         <About />

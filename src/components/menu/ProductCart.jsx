@@ -8,10 +8,14 @@ function ProductCart({ product }) {
     switch (category) {
       case "pasta":
         return "var(--color-orange)";
-      case "PASTELES":
+      case "pastel":
         return "var(--color-pink)";
-      case "almuerzo":
+      case "lunch":
         return "var(--color-orange)";
+      case "breakfast":
+        return "var( --color-brown)";
+      case "breakfast":
+        return "var( --color-mustard)";
       default:
         return "var(--color-orange)";
     }
@@ -26,7 +30,7 @@ function ProductCart({ product }) {
           </span>
           <span>
             <img src={StarYellow} alt="start yellow icon" />{" "}
-            {product.puntuation}
+            {product.punctuation}
           </span>
         </div>
         <figure className="productCart_figure">

@@ -1,8 +1,8 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import MenuPage from "./pages/MenuPage";
 import HeaderComponent from "./components/header/HeaderComponent";
 import { HelmetProvider } from "react-helmet-async";
+import MenuPage from "./pages/menupage/MenuPage";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <HelmetProvider>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/nuestrosproductos" element={<MenuPage />} />
+            <Route path="/nuestrosproductos" element={<MenuPage/>} />
           </Routes>
         </HelmetProvider>
       </HashRouter>

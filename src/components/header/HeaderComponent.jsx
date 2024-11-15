@@ -7,7 +7,7 @@ function HeaderComponent() {
     <>
     <header className='header_section'>
       <nav className='header_content'>
-        <img src={brand} alt="logo" />
+        <img className='logo' src={brand} alt="logo" />
       </nav>
     </header>
      

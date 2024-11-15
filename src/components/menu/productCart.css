@@ -25,7 +25,8 @@
 
 .productCart {
   min-width: 250px;
-  height: 400px;
+  width: 300px;
+  padding-bottom: 10px;
   scroll-snap-align: start;
   border: 1px solid rgb(212, 212, 212);
   position: relative;
@@ -34,9 +35,12 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+
 @media (min-width: 768px) {
   .productCart {
     flex: 0 0 300px;
+    max-width: 300px;
     height: 450px;
   }
 }
