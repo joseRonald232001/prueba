@@ -79,7 +79,7 @@
 
 .hero_figure {
   position: absolute;
-  background-image: url("images/homeImage.webp");
+  background-image: url("../../assets/images/homeImage.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;

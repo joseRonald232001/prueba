@@ -82,6 +82,7 @@
 
 .productCart_figure img {
   width: 100%;
+  aspect-ratio: 3/3;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
